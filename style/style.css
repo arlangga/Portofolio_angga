@@ -136,7 +136,7 @@ nav .closeMenu {
         top: 0;
         /* transform: translateY(100%); */
         display: none;
-        height: 100vh;
+        height: auto;
         box-shadow: -5px 0 15px rgba(0, 0, 0, 0.3);
         z-index: 999;
     }
@@ -308,7 +308,7 @@ nav .closeMenu {
 /* main -> about section start */
 
 .about {
-    height: 100vh;
+    height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-top: 80px;
@@ -425,7 +425,7 @@ nav .closeMenu {
 
     .about {
         grid-template-columns: 1fr;
-        padding-top: 0;
+        /* padding-top: 0; */
         width: 100%;
     }
 
@@ -570,7 +570,7 @@ nav .closeMenu {
 @media (width < 524px) {
 
     .projek {
-        padding-top: 0;
+        /* padding-top: 0; */
     }
 
     .projekList{
